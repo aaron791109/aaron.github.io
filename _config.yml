@@ -3,4 +3,8 @@ title: Aaron Technical Notes
 github_username: aaron791109
 description: >- 
   It's about notes for work
-  
+#baseurl: '/blog' # the subpath of your site, e.g. /blog
+url: 'https://aaron791109.github.io'
+
+permalink: /:collection/:year-:month-:day-:title:output_ext
+show_excerpts: true
