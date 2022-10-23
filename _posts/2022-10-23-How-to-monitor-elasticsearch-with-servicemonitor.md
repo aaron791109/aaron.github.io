@@ -84,5 +84,14 @@ spec:
 # Grafana Dashboard
 [here on grafana.com](https://grafana.com/grafana/dashboards/266-elasticsearch/)
 
+
+# 最小權限原則
+在 `Elasticsearch` 上創建角色並附加到用戶上
+賦予的權限為
+```bash
+Cluster privileges: monitor ,monitor_snapshot
+
+Index privileges: indices = * , privileges = monitor
+```
 # Done
 這樣我們就完成了使用 `ServiceMonitor` 來監控 `Elasticsearch` 的數據變化
